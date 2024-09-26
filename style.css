@@ -9,7 +9,6 @@ body {
 
 h1 {
   font-size: 48px;
-  font-family: 'Modern Love Caps', cursive;
   font-weight: bold;
   text-shadow: 4px 4px 4px #aaa;
   color: darksladeblue;
@@ -28,7 +27,6 @@ h1::after {
   margin-top: 10px;
   margin: 0 auto;
   width: 50%;
-  transform: translateX(-50%);
 }
 
 p {
