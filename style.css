@@ -20,7 +20,7 @@ h1 {
 
 h1::after {
   content: '';
-  display: absolute;
+  position: absolute;
   width: 100%;
   height: 5px;
   background-color: darkblue;             
