@@ -31,8 +31,10 @@ h1::after {
 
 p {
   text-align: center;                      
-  max-width: 600px;                        
+  max-width: 80%;                        
   margin: 0 auto;
   line-height: 1.6; 
   font-size: 18px;
+  padding-bottom: 10px;
+  
 }
