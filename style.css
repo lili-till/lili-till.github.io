@@ -10,13 +10,13 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  border-left: 40px solid;
-  border-right: 40px solid;
+  border-left: 30px solid;
+  border-right: 30px solid;
   border-image-source: url('flower.jpg');
   border-image-slice: 30;
   border-image-width: 30px;
   border-image-outset: 0;
-  border-image-repeat: repeat;
+  border-image-repeat: stretch;
 }
 
 h1 {
