@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
 
 body {
-  background-color: indigo;
+  background-color: lightsteelblue;
   font-family: "Sofia", cursive;
   display: flex;
   flex-direction: column;
