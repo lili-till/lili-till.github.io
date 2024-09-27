@@ -13,7 +13,7 @@ body {
   background-image: url('bg.jpg');
   background-size: cover; 
   background-position: center; 
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 
@@ -22,10 +22,11 @@ h1 {
   font-size: 48px;
   font-weight: bold;
   text-shadow: 4px 4px 4px #aaa;
-  color: indigo;
+  color: black;
   position: relative;
   margin-bottom: 30px;
   text-align: center;
+  padding-top: 40px;
   padding-bottom: 10px;
 }
 
@@ -43,7 +44,7 @@ h1::after {
 p {
   color:gray;
   text-align: center;                      
-  max-width: 80%;                        
+  max-width: 60%;                        
   margin: 0 auto;
   line-height: 1.6; 
   font-size: 18px;
