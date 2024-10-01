@@ -5,9 +5,39 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #menu {
+                position: fixed;
+                top: 10px;
+                left: 10px;
+                padding: 10px;
+                background-color: lightgray;
+                border: 1px solid;
+                max-width: 200px;
+            }
+            #menu ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            #menu li {
+                margin-bottom: 10px;
+            }
+            #menu a {
+                text-decoration: none;
+                color: #007bff;
+            }
+            h2 {
+                margin-top: 50px; /* Space between sections */
+            }
+        </style>
     </head>
     <body>
+        <div id="menu">
+            <h3>Menu</h3>
+            <ul id="menuList"></ul>
+        </div>
+        
         <text-box>
         <h1>Till Nóra Lili</h1>
         <h2>Magyar</h2>
@@ -50,6 +80,7 @@
         </p> 
         </text-box>
         
-    <script src="script.js"></script>
+    <script src="script.js">        
+    </script>
     </body>
 </html>
